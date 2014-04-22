@@ -1,0 +1,420 @@
+body{
+	background-image: url(http://www.meetyouhalfway.co.uk/APP/img/map-background.png);
+	background-size: 100%;
+	background-repeat: repeat-y;
+	font-family: "Helvetica";
+}
+
+.container-fluid{
+	border-top: 8px solid #2380C3;
+	margin-left: 5%;
+	margin-right: 5%;
+	border-radius: 5px;
+	padding: 10px 30px;
+}
+
+.hide-this{
+	display: none;
+}
+
+.go-left{
+	text-align: left;
+	float: left; 
+}
+
+.go-right{
+	float: right;
+}
+
+.gutter-top{
+	margin-top: 20px;
+}
+.refresh-link{
+	color: #000;
+}
+.cancel-request-btn{
+	float: right;
+	margin-top: 15px;
+}
+.refresh-link:hover{
+	text-decoration: none;
+	color: #2380c3;
+}
+.head-space{
+	margin-top: 10px;
+}
+
+.center{
+	text-align: center!important;
+	float: center!important;
+}
+.white-bg{
+	background-color: #fff;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.main-logo{
+	width: 70%; 
+	padding-left: 15px;
+	padding-top: 10px;
+}
+
+.no-left-margin{
+	margin-left: 0!important;
+	width: 59.7%!important;
+}
+
+.nav{
+	font-size: 150%;
+	padding-top: 50px;
+	width: 100%;
+}
+
+.nav-section{
+	width: 32%;
+	display: inline-block;
+	text-align: center;
+}
+
+.nav-section a{
+	font-family: 'Lato';
+	color: #2380C3;
+}
+
+.nav-section a:hover{
+	text-decoration: none;
+	color: #34495E;
+}
+
+.hihi{
+	border: 1px solid red;
+}
+
+
+/* --- USER DASHBOARD --- */
+#user-dashboard{
+	margin-top: 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: #f7f6f0;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #edebdf;
+	font-family: 'Lato';
+}
+
+/* USER PROFILE PICTURE */
+
+.avatar-area{
+	padding: 10px 0 10px 10px;
+	height: 210px;
+}
+
+.clip-circle
+{
+	background-size: 150px 150px;
+	background-position: -150px 0px;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: auto;
+	border: 4px solid #98D4EC;
+}
+
+.clip-circle:hover{
+	border: 4px solid #4398D3;
+}
+
+.last-seen{
+	text-align: center;
+	color: #25aaf2;
+	font-size: 14px;
+	padding-top: 10px;
+}
+
+.make-bold{
+	font-weight: bolder;
+	color: #2380c3;
+}
+
+.last-seen.fa-map-marker{
+	font-size: 18px!important;
+	font-weight: bolder;
+	color: #2380c3;
+}
+
+/* USER DETAILS */
+
+.user-info{
+	padding: 20px 0 10px 0;
+}
+
+.user-name{
+	font-size: 28px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	display: block;
+}
+
+.user-home-town{
+	color: #25aaf2;
+	font-size: 14px;
+	display: block;
+}
+
+.globe{
+	vertical-align: middle;
+	color: #2380c3;
+	font-size: 18px!important;
+	padding-right: 3px;
+}
+
+.user-rank{
+	color: #25aaf2;
+	padding-top: 20px;
+	font-size: 14px;
+	display: block;
+}
+
+.shield{
+	vertical-align: middle;
+	color: #2380c3;
+	font-size: 18px!important;
+	padding-right: 3px;
+}
+
+.bio{
+	padding-top: 15px;
+	font-size: 16px;
+	display: block;
+	line-height: 30px;
+}
+
+/* USER CONTACT DETAILS */
+
+.user-contact-details{
+	font-size: 16px;
+	padding: 20px 10px 0 0;
+}
+
+.user-email{
+	display: block;
+}
+
+.user-facebook{
+	display: block;
+	padding-top: 20px;
+}
+
+.user-twitter{
+	display: block;
+	padding-top: 20px;
+}
+
+.contact-icon{
+	width: 30px;
+	text-align: center;
+	color: #2380c3;
+	font-size: 20px;
+	vertical-align: middle;
+}
+
+/* USER INFO PANELS */
+
+.user-info-panels{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0 10px 10px 10px;
+	height: 100px;
+}
+
+.info-panel{
+	text-align: center;
+	border-radius: 4px;
+	margin: 10px 0;
+	color: white;
+	font-family: "Lato";
+	letter-spacing: 1px;
+	height: 60px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.info-icon{
+	font-size: 30px!important;
+	height: 30px;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.hover-text{
+	padding-top: 3px;
+}
+.info-icon i{
+	font-size: 30px;
+}
+.set-height{
+	height: 32px;
+}
+.info-title{
+	padding-top: 5px;
+	font-size: 14px;
+}
+
+.blue{
+	background-color: #25aaf2;
+}
+
+.green{
+	background-color: #54c059;
+}
+
+.orange{
+	background-color: #f5a500;
+}
+
+.purple{
+	background-color: #9361ea;
+}
+
+.aqua{
+	background-color: #1ABC9C;
+}
+
+.crown-icon{
+	height: 30px;
+}
+
+/* USERS LOCATIONS MAP AREA */
+.user-location{
+	-webkit-border-radius: 0 0 10px 10px!important;
+	-moz-border-radius: 0 0 10px!important;
+	border-radius: 0 0 10px 10px!important;
+}
+.map-container{
+	width: 100%!important;
+	-webkit-border-radius: 0 0 10px 10px!important;
+	-moz-border-radius: 0 0 10px!important;
+	border-radius: 0 0 10px 10px!important;
+	height: 150px!important;
+}
+#map-canvas{
+	-webkit-border-radius: 0 0 10px 10px!important;
+	-moz-border-radius: 0 0 10px!important;
+	border-radius: 0 0 10px 10px!important;
+}
+
+/* --- FRIENDS LIST --- */
+#friends-list{
+	margin-top: 20px;
+}
+
+#friends-list ul {
+	list-style: none;
+	margin: 0!important;
+}
+
+.friend-list{
+	width: 33.33%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: inline-block;
+	float: left;
+	height: 200px;
+}
+#friends-list li{
+	margin: 0 10px;
+}
+
+.friend-panel{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 2px solid #edebdf;
+	border-radius: 5px;
+	padding: 10px 0 0px 0;
+	font-family: 'Lato';
+	background-color: #f7f6f0;
+}
+
+.friend-picture{
+	padding-bottom: 10px;
+}
+.friend-name{
+	font-weight: normal;
+	font-size: 20px;
+	padding-bottom: 5px;
+	line-height: 20px;
+	padding-top: 10px;
+}
+
+.friend-home-city{
+	padding-top: 5px;
+	font-size: 13px;
+	color: #888;
+	padding:  5px 0 10px 0;
+	font-weight: normal;
+	margin-bottom: 5px;
+}
+
+.friend-contact{
+	background-color: #4398D3;
+	border-left: 2px solid #4398D3;
+	border-bottom: 2px solid #4398D3;
+	border-right: 2px solid #4398D3;
+	text-align: center;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	color: #fff;
+	margin-left: -2px;
+	margin-bottom: -2px;
+}
+.friend-contact a{
+	color: #fff;
+	font-size: 20px;
+	height: 30px;
+	text-align: center;
+}
+.friend-email i{
+	line-height: 30px;
+}
+.friend-email a:hover{
+	color: #98D4EC;
+}
+.friend-twitter i{
+	line-height: 30px;
+}
+.friend-twitter a:hover{
+	color: #98D4EC;
+}
+.friend-facebook i{
+	line-height: 30px;
+}
+.friend-facebook a:hover{
+	color: #98D4EC;
+}
+
+.disabed-link{
+	pointer-events: none;
+ 	cursor: default;
+ 	text-shadow: 1px 1px 1px rgba(219, 236, 249, 0.63);
+	color: #2380C3!important;
+}
+
+.make-circle-smaller{
+	background-size: 100px 100px!important;
+	background-position: -100px 0px!important;
+	height: 100px!important;
+	width: 100px!important;
+}
+
+
